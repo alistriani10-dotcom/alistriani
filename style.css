@@ -1,0 +1,80 @@
+/* ====== GLOBAL STYLE ====== */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe6f2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* ====== HEADER & FOOTER ====== */
+header, footer {
+    background-color: #ffb3d9;
+    padding: 20px;
+    text-align: center;
+}
+
+/* ====== NAV ====== */
+nav {
+    background-color: #ff99cc;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* ====== MAIN CONTENT ====== */
+main {
+    padding: 20px;
+}
+
+img {
+    border: 4px solid #ff99cc;
+    border-radius: 10px;
+}
+
+/* ====== TABLE ====== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: #fff0f5;
+}
+
+table, th, td {
+    border: 1px solid #ff80bf;
+    padding: 10px;
+    text-align: left;
+}
+
+/* ====== SECTIONS ====== */
+section {
+    margin-bottom: 40px;
+}
+
+/* ====== FORM ====== */
+fieldset {
+    border: 2px solid #ff99cc;
+    padding: 15px;
+    border-radius: 10px;
+    background: #fff0f5;
+}
+
+/* ====== BUTTON ====== */
+button {
+    background-color: #ff4da6;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff1a8c;
+}
