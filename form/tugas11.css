@@ -1,0 +1,171 @@
+/* RESET DASAR */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* BODY */
+
+body {
+    background: linear-gradient(135deg, #f3e7ff, #ffffff);
+    min-height: 100vh;
+    padding: 40px;
+    color: #333;
+}
+
+
+/* JUDUL */
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #5a189a;
+    animation: fadeDown 0.8s ease;
+}
+
+h2 {
+    margin: 30px 0 10px;
+    color: #3c096c;
+}
+
+
+/* FORM */
+
+form {
+    margin-bottom: 20px;
+}
+
+
+/* LABEL */
+
+label {
+    font-weight: bold;
+}
+
+
+/* INPUT, SELECT, BUTTON */
+
+input,
+select,
+button {
+    margin-top: 6px;
+    padding: 10px 12px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid #bbb;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+
+/* INPUT & SELECT WIDTH */
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+select {
+    width: 300px;
+}
+
+
+/* FOCUS EFFECT */
+
+input:focus,
+select:focus {
+    border-color: #5a189a;
+    box-shadow: 0 0 0 3px rgba(90, 24, 154, 0.2);
+    transform: scale(1.02);
+}
+
+
+/* RADIO & CHECKBOX */
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+
+/* FILE & COLOR */
+
+input[type="file"],
+input[type="color"] {
+    cursor: pointer;
+}
+
+
+/* BUTTON */
+
+button {
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: #5a189a;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/* BUTTON HOVER */
+
+button:hover {
+    background-color: #3c096c;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(90, 24, 154, 0.3);
+}
+
+
+/* BUTTON RESET */
+
+button[type="reset"] {
+    background-color: #adb5bd;
+    color: #333;
+}
+
+button[type="reset"]:hover {
+    background-color: #868e96;
+}
+
+
+/* HR */
+
+hr {
+    margin: 30px 0;
+    border: none;
+    border-top: 1px solid #ddd;
+}
+
+
+/* DISABLED & READONLY */
+
+input:disabled {
+    background-color: #e9ecef;
+    cursor: not-allowed;
+}
+
+input[readonly] {
+    background-color: #f8f9fa;
+}
+
+
+/* ANIMASI MASUK */
+
+@keyframes fadeDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
